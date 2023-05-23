@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Terraria;
+    src: url("/ANDYB.TTF");
+}
+body {
+  background-image: url("https://i.pinimg.com/originals/39/54/7b/39547b886e2c518abe91199ce75d1bd7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.menu {
+  background-image: url("https://thumbs.dreamstime.com/b/uso-del-fondo-del-juego-del-bosque-o-73562942.jpg");
+  box-shadow: 0 0 10px black;
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  font-family: Terraria;
+  font-size: 15px;
+  color: white;
+}
+#contenedor-1 h1{
+ font-size: 40px;
+ text-align: center;
+ font-family: Terraria;
+ text-decoration: underline black;
+ color: aqua;
+}
+p{
+    font-size: 25px;
+    font-family: Terraria;
+    color: green;
+}
