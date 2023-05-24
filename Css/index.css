@@ -13,6 +13,9 @@ background-size: cover;
   display: flex;
   justify-content: center;
 }
+.menu ul{
+    display: flex;
+}
 .menu li {
   list-style: none;
 }
@@ -21,6 +24,7 @@ background-size: cover;
   font-family: Terraria;
   font-size: 15px;
   color: white;
+  padding: 10px;
 }
 #contenedor-1 h1{
  font-size: 40px;
